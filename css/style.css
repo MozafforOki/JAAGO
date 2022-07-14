@@ -24,6 +24,19 @@ h1{
     font-size: 65px;
     line-height: 79px;
 }
+h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+}
+h3{
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+}
 .top-banner p{
     font-weight: 400;
     font-size: 18px;
@@ -50,13 +63,12 @@ h1{
     border-radius: 20px;
 }*/
 .donate-today-section{
-    margin: 50px 200px;
+    margin: 50px 300px;
     text-align: center;
-    border: 2px solid blue;
     padding: 20px 0;
     
 }
-.donate-today-text{
+.donate-text{
     margin-top: 20px;
     margin-bottom: 50px;
     font-family: 'Poppins';
@@ -67,7 +79,7 @@ h1{
 }
 .amount-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 50px 0;
     
 }
@@ -76,7 +88,6 @@ h1{
     height: 123px;
     background: #FAFAFA;
     border-radius: 5px;
-    margin-right: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,11 +117,71 @@ h1{
     border-bottom:1px solid #DADADA;
     margin-bottom: 30px;
 }
+.our-donate-plan-section{
+    border: 1px solid red;
+    margin: 50px 100px;
+    padding: 60px 0;
 
+}
+.text-center{
+    text-align: center;
+}
+.donate-plan-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.plan{
+    width: 360px;
+    height: 320px;
+    border-radius: 5px;
+    padding: 40px 20px;
+    
+}
+.food{
+    background: rgba(79, 157, 166, 0.1);
+}
+.shelter{
+    background: rgba(255, 89, 89, 0.1);
+}
+.education{
+    background: #f1f5daac;
+}
 
-
-
-
+.donate-plan-container p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+.their-lives-section{
+    margin: 50px 100px;
+    border: 5px solid red;
+}
+.flexible-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.contain{
+    padding: 0 40px;
+    /*border: 1px solid blueviolet;*/
+}
+.contain p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    margin: 35px 0;
+}
 
 
 
